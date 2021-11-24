@@ -3,6 +3,8 @@
 \usepackage{graphicx}
 \usepackage[backend=biber]{biblatex}
 \usepackage{color, colortbl}
+\usepackage[most]{tcolorbox}
+\usepackage{amsmath}
 \addbibresource{sample.bib}
 %Information to be included in the title page:
 \title{Data Science Research Methods Assignment-3}
@@ -21,6 +23,7 @@
 
 \begin{frame}{Introduction}
 
+The objective of the report was to analyze a movie dataset from imdb to make reccomendations on the type of movie the studio should consider making.Our budget for production was 1.5 million.
 %\begin{figure}
 %	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{privpublic.jpeg}
 %	\caption{Comparision between the two types} \nocite{luxtag}
@@ -31,12 +34,20 @@
 \begin{frame}{Data Analyses}
 %\begin{itemize}
 %\item Capital Markets
-%\begin{itemize}
-%    \item Issuance
-%    \item Sales and trading
-%    \item Clearing and Settlement
-%	\\[1ex]
-%\end{itemize}
+\begin{itemize}
+    \item First step was to control for budget and only consider movies with a budget of less than 1.5 million.
+    \item Next, a new feature, 'profit\_percentage' was calculated from the data such that,\\
+    \begin{tcolorbox}[colback=red!5,colframe=green!75!black,title=]
+	    $$\text{profit\_percentage}=\left(\frac{\text{gross}}{\text{budget}}-1\right)\times100$$
+	    \tcblower
+	    where 'gross' is just the total earning of the movie\\
+	    and 'budget' is the budget of the movie
+\end{tcolorbox} 
+
+    \item Clearing and Settlement
+	\\[1ex]
+\end{itemize}
+
 %\item Asset Management
 %\begin{itemize}
 %    \item Fund Launch
