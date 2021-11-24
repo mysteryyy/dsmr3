@@ -134,7 +134,24 @@ The objective of the report was to analyze a movie dataset from imdb to make rec
 %
 %\end{itemize}
 \end{frame}
-\begin{frame}{Summary}
+\begin{frame}
+\begin{tcolorbox}[colback=red!5,colframe=blue!75!black,title=Example of a Hypothesis]
+	\begin{math}
+	 \mu_1  = \text{Mean of profit\_percentage of genre 'Horror'} \\
+	 \mu_2  = \text{Mean of profit\_percentage of all genres \textbf{except Horror}}\\
+		H_0   =  \mu_1\leq\mu_2 , \text{Null Hypothesis} \\ 
+		H_1   =  \mu_1>\mu_2 , \text{Alternate Hypothesis} \\
+	\end{math}
+	 \tcblower
+	 The above hypothesis is tested using a right-sided t-test as the 
+	 sample size might be too small for a z-test.\\
+	 If the p-value from the above test
+	 is less than 0.05(our confidence value), we conclude that Horror movies indeed
+	 earn higher than avergae compared to other genres.
+
+\end{tcolorbox} 
+
+
 %    The immutability and transparency of a Corda blockchain help empower financial institutions for gaining fast and secure access to up-to-date customer data. 
 %		\nocite{alehub.io_2018},\nocite{corda}     
 %\begin{itemize}
