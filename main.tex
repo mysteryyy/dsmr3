@@ -1,6 +1,7 @@
 %& -job-name=presentation
 \documentclass{beamer}
 \usepackage{graphicx}
+\usepackage{booktabs}
 \usepackage[backend=biber]{biblatex}
 \usepackage{color, colortbl}
 \usepackage[most]{tcolorbox}
@@ -42,9 +43,10 @@ The objective of the report was to analyze a movie dataset from imdb to make rec
 	    \tcblower
 	    where 'gross' is just the total earning of the movie\\
 	    and 'budget' is the budget of the movie
+
 \end{tcolorbox} 
 
-    \item Clearing and Settlement
+    \item We try to analyze the gross and profit of different genres through a boxplot.
 	\\[1ex]
 \end{itemize}
 
@@ -68,8 +70,53 @@ The objective of the report was to analyze a movie dataset from imdb to make rec
 
 
 \end{frame}
+\begin{frame}
+\begin{figure}
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{test100.jpg}
+	\caption{Boxplot of Gross grouped by Genres} 
+	%\nocite{luxtag}
+  \label{fig:boat1}
+\end{figure}
+
+\end{frame}
+\begin{frame}
+\begin{figure}
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{test200.jpg}
+	\caption{Boxplot of profit\_percentage grouped by Genres} 
+	%\nocite{luxtag}
+  \label{fig:boat1}
+\end{figure}
+
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item Tried to analyze most prevelant subplots in these movies.\\
+\end{itemize}
+
+\vspace{10mm} %5mm vertical space
+\centering
+\begin{tabular}{lr}
+\toprule
+    plot\_keywords &  frequency of occurence \\
+\midrule
+           friend &                      16 \\
+             love &                       9 \\
+ independent film &                       8 \\
+            drugs &                       7 \\
+       friendship &                       7 \\
+\bottomrule
+\end{tabular}
+
+\end{frame}
 
 \begin{frame}{Hypothesis Generated from Data}
+
+\begin{itemize}
+\item On analysing the subplots, one sees a clear pattern that certain movie genres, for instance, Comedy/Drama/Music  have higher earnings.
+\item With respect to profit\_percentage however,one sees that genres like Horror and Horror/Thriller have higher return on investment.
+\item We try to test if the above mentioned genres have higher returns on average compared to other genres. 
+
+\end{itemize}
 %	\begin{itemize}
 %
 %\item Corda helps businesses in Banking, Capital Markets, Trade Finance, Insurance and beyond to transact directly and in strict privacy using smart contracts, reducing transaction and record-keeping costs and streamlining business operations.
