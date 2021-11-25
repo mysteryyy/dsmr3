@@ -1,0 +1,5 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'sampl.blg'
+[87] biber:330> INFO - === Thu Nov 25, 2021, 09:18:14
+[231] Utils.pm:400> ERROR - Cannot find 'sampl.bcf'!
+[231] Biber.pm:132> INFO - ERRORS: 1

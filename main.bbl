@@ -19,78 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{alehub.io_2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=e00436ee7fdf3611ddcf70253573a5c4}{%
-           family={Alehub.io},
-           familyi={A\bibinitperiod}}}%
+    \entry{fpr}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=6b422a9ac2fd1f6e793a80f295ca7e42}{%
+           family={authors},
+           familyi={a\bibinitperiod},
+           given={All},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4688689f76f3cc48c0ac7bf842b31087}{%
+           family={Colquhoun},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Medium}%
-      }
-      \strng{namehash}{e00436ee7fdf3611ddcf70253573a5c4}
-      \strng{fullhash}{e00436ee7fdf3611ddcf70253573a5c4}
-      \strng{bibnamehash}{e00436ee7fdf3611ddcf70253573a5c4}
-      \strng{authorbibnamehash}{e00436ee7fdf3611ddcf70253573a5c4}
-      \strng{authornamehash}{e00436ee7fdf3611ddcf70253573a5c4}
-      \strng{authorfullhash}{e00436ee7fdf3611ddcf70253573a5c4}
-      \field{sortinit}{A}
+      \strng{namehash}{ffaed138bf1d2b339a0a0475180430e4}
+      \strng{fullhash}{ffaed138bf1d2b339a0a0475180430e4}
+      \strng{bibnamehash}{ffaed138bf1d2b339a0a0475180430e4}
+      \strng{authorbibnamehash}{ffaed138bf1d2b339a0a0475180430e4}
+      \strng{authornamehash}{ffaed138bf1d2b339a0a0475180430e4}
+      \strng{authorfullhash}{ffaed138bf1d2b339a0a0475180430e4}
+      \field{sortinit}{a}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Medium}
-      \field{month}{6}
-      \field{title}{What's wrong with Corda R3 and how ALEHUB maintains private blockchains?}
-      \field{year}{2018}
+      \field{journaltitle}{Taylor &amp; Francis}
+      \field{title}{The false positive risk: A proposal concerning what to do about P-values}
       \true{nocite}
       \verb{urlraw}
-      \verb https://medium.com/@alehub/whats-wrong-with-corda-r3-and-how-alehub-maintains-private-blockchains-5bc85da9da7f
+      \verb https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1529622
       \endverb
       \verb{url}
-      \verb https://medium.com/@alehub/whats-wrong-with-corda-r3-and-how-alehub-maintains-private-blockchains-5bc85da9da7f
-      \endverb
-    \endentry
-    \entry{corda}{misc}{}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Corda}
-      \field{title}{Blockchain Platform Solving Complex Business Problems}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.corda.net/why-corda/
-      \endverb
-      \verb{url}
-      \verb https://www.corda.net/why-corda/
-      \endverb
-    \endentry
-    \entry{luxtag}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=08055ed2f05ca6a9cec074bb3394909e}{%
-           family={LuxTag},
-           familyi={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {LuxTag}%
-      }
-      \strng{namehash}{08055ed2f05ca6a9cec074bb3394909e}
-      \strng{fullhash}{08055ed2f05ca6a9cec074bb3394909e}
-      \strng{bibnamehash}{08055ed2f05ca6a9cec074bb3394909e}
-      \strng{authorbibnamehash}{08055ed2f05ca6a9cec074bb3394909e}
-      \strng{authornamehash}{08055ed2f05ca6a9cec074bb3394909e}
-      \strng{authorfullhash}{08055ed2f05ca6a9cec074bb3394909e}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{luxtag}
-      \field{title}{Private vs. Public Blockchains: What are the Major Differences?}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.luxtag.io/blog/private-vs-public-blockchain-what-are-the-major-differences/
-      \endverb
-      \verb{url}
-      \verb https://www.luxtag.io/blog/private-vs-public-blockchain-what-are-the-major-differences/
+      \verb https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1529622
       \endverb
     \endentry
   \enddatalist
