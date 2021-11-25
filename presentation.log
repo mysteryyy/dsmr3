@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.9.4)  24 NOV 2021 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.9.4)  25 NOV 2021 08:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1375,12 +1375,12 @@ l.90 \end{frame}
 ] [7
 
 ]
-Overfull \hbox (1.09473pt too wide) in paragraph at lines 165--165
+Overfull \hbox (1.09473pt too wide) in paragraph at lines 166--166
 \OML/cmm/m/it/10.95 ^^V[] \OT1/cmss/m/n/10.95 = [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 
  []
 
@@ -1388,11 +1388,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--165
 
 ] [9
 
+] [10
+
 ]
 
-LaTeX Warning: Empty bibliography on input line 175.
+LaTeX Warning: Empty bibliography on input line 189.
 
-[10
+[11
 
 ]
 \tf@nav=\write9
@@ -1404,11 +1406,11 @@ LaTeX Warning: Empty bibliography on input line 175.
 \tf@snm=\write11
 \openout11 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1420,10 +1422,10 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33984 strings out of 480906
- 706221 string characters out of 5910773
- 1379447 words of memory out of 5000000
- 48898 multiletter control sequences out of 15000+600000
+ 33990 strings out of 480906
+ 706290 string characters out of 5910773
+ 1379446 words of memory out of 5000000
+ 48902 multiletter control sequences out of 15000+600000
  543025 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,15n,108p,792b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1435,10 +1437,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (10 pages, 404341 bytes).
+Output written on presentation.pdf (11 pages, 407218 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 24 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

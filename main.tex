@@ -147,7 +147,8 @@ The objective of the report was to analyze a movie dataset from imdb to make rec
 	 sample size might be too small for a z-test.\\
 	 If the p-value from the above test
 	 is less than 0.05(our confidence value), we conclude that Horror movies indeed
-	 earn higher than avergae compared to other genres.
+	 earn higher than average compared to other genres.Aspect Ratios are tested in a similar
+	 way.
 
 \end{tcolorbox} 
 
@@ -165,10 +166,23 @@ The objective of the report was to analyze a movie dataset from imdb to make rec
 \end{frame}
 \begin{frame}
 
-\begin{tcolorbox}[colback=purple!5,colframe=blue!75!black,title=Bootsrapped Hypothesis Testing]
-
+\begin{tcolorbox}[colback=purple!5,colframe=blue!75!black,title=Bootstrapped Hypothesis Testing]
+Another type of hypothesis test was performed using bootstrapping to confirm the results obtained from t-test.In this version, bootstrapped sample of both the sets that are to be compared were taken and then the mean was calculated for each sample.These samples of means were then compared. 
 \end{tcolorbox}	
 \end{frame}
+\begin{frame}
+
+\begin{tcolorbox}[colback=purple!5,colframe=blue!75!black,title=Testing Feature's Impact on Profit]
+\begin{itemize}
+\item To test whether features like 'Director Facebook Likes','actor\_1\_facebook\_likes' impact movie profits, a different method is adopted. Features are divided into percentiles like 10,20,30 up untill 100.
+
+\item Then its tested if the profit of movies in higher percentile for that feature(say higher than 60 percentile) is higher than that for movies in the lower percentile(less than 60 percent).
+
+\item In this way we are testing if higher values of a particular feature means higher earnings.
+\end{itemize}
+\end{tcolorbox}	
+\end{frame}
+
 \begin{frame}
 \printbibliography
 
